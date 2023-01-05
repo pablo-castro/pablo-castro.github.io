@@ -117,6 +117,7 @@ nav a:hover{
 .donuts{
     
     display: flex;
+    flex:1;
     flex-direction: column;
     justify-content: space-between;
     border: 2px solid #FFF;

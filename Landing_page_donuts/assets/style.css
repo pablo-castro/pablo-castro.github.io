@@ -186,6 +186,10 @@ nav a:hover{
 
 }
 
+.donuts_img,.image_aside {
+        filter: drop-shadow( 8px 8px 4px GREY);
+    }
+
 @media (max-width:1500px) {
     .image_aside{
         display:none;

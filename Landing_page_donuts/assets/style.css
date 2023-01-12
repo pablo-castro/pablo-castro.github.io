@@ -59,12 +59,11 @@ nav a{
 }
 
 .donuts_img{
-    width: 150px;
+    max-width: 150px;
    
 }
 
 article{
-    height: 100vh;
     display: flex;
     justify-content: space-between;
 }
@@ -159,7 +158,7 @@ nav a:hover{
 .image_aside{
     display: flex;
     align-self: center;
-    height:900px
+    width:900px;
 }
 
 .menuMobile{

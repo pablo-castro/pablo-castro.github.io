@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+/*
+font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+
+header .line {
+    background-color: #117050;
+    height:10px;
+}
+
+.container{
+    max-width: 1140px;
+    margin:auto;
+
+}
+.header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.header-left img {
+    width: 64px;
+    height: 64px;
+}
+.header-search form {
+    display: flex;
+    
+}
+.header-search input{
+    font-size:16px;
+    padding: 7px 10px;
+    border: 1px solid #999;
+    outline: 0;
+    width: 100%;
+    max-width: 230px;
+}
+
+.header-search button {
+    border: 0;
+    background: transparent;
+    margin-left: -30px;
+}
+
+.header-search button img {
+    width: 16px;
+    cursor: pointer;
+}
+
+.header-menu {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.header-menu img {
+    width: 24px;
+}
+
+.banner {
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    
+    padding-bottom: 40px;
+    height: calc(100vh - 100px);
+}
+
+.banner h1 {
+    padding-top:95px ;
+    font-size: 95px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    line-height: 100px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.banner-images{
+    margin-top:  60px;
+}
+.banner-images img{
+    width: 148px;
+    height: 148px;
+    border: 6px solid #117050;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.area1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.area1-img2{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-image: url('../images/f1.jpg');
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+.area1-img1{
+    
+    background-image: url('../images/f2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    
+}
+
+.area1 .line2{
+    width: 168px;
+    height: 22px;
+    background-color: #117050;
+}
+
+.area1-content{
+    max-width: 450px;
+    padding: 60px 170px;
+}
+.area1-content h2{
+    margin-top:15px;
+    font-weight: bold;
+    font-family: Oswald,sans-serif;
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.area1-content span{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.area1-content-container p {
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+.button{
+    margin-top: 40px;
+    border: 2px solid #454545;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #454545;
+    cursor: pointer;
+}
+.button:hover{
+    color:#fff;
+    background-color: #454545;
+}
+
+.area2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.area2-img2{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-image: url('../images/f3.jpg');
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+.area2-img1{
+    
+    background-image: url('../images/f4.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    
+}
+
+.area2 .line2{
+    width: 168px;
+    height: 22px;
+    background-color: #117050;
+}
+
+.area2-content{
+    max-width: 450px;
+    padding: 60px 170px;
+}
+.area2-content h2{
+    margin-top:15px;
+    font-weight: bold;
+    font-family: Oswald,sans-serif;
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.area2-content-container p {
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+.area3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.area3-img1{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    background-image: url('../images/f5.jpg');
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+
+.area3-content{
+    max-width: 450px;
+    background-image: url('../images/bg2.jpg');
+    padding: 60px 170px;
+    background-size: cover;
+    padding-top: 240px;
+    padding-bottom: 240px;
+}
+.area3-content h2{
+    margin-top:15px;
+    font-weight: bold;
+    font-family: Oswald,sans-serif;
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.area3-content-container p {
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+.area4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.area4-img2{
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    background-image: url('../images/bg3.jpg');
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+.area4-img1{
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    background-image: url('../images/bg4.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 700px;
+   
+    
+}
+
+.area4 .line4{
+    
+    width: 168px;
+    height: 22px;
+    background-color: #117050;
+}
+
+.area4-content{
+    
+    max-width: 450px;
+    background-color: #e8e9ee;
+    padding: 60px 170px;
+    padding-top: 240px;
+    padding-bottom: 240px;
+}
+.area4-content h2{
+    margin-top:15px;
+    font-weight: bold;
+    font-family: Oswald,sans-serif;
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.area4-content-container p {
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+footer {
+ background-color:#333 ;
+ color: #fff;
+ padding: 80px;
+ text-align: center;
+}
+
+@media (max-width: 1140px){
+    .container{
+        padding-left:20px ;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width:770px){
+    .banner,
+    .area1-content,
+    .area2-content,
+    .area3-content,
+    .area4-content{
+        
+        padding: 20px 30px;
+    }
+    .area1{
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        
+    }
+}
+
+@media(max-width:430px) {
+    .header-search input{
+        max-width: 100px;
+    }
+    .banner h1{
+        font-size:40px;
+        line-height: 40px;
+    }
+   
+    .banner-images img {
+        width: 70px;
+        height: 70px;
+        border:3px solid #117050;
+        margin-right: 10px;
+    }
+    .banner{
+    background-image: url('../images/bg.jpg');
+    background-position:60% 50%;
+    background-size: cover;
+    }
+    .banner .container{
+       padding: 0;
+    }
+}

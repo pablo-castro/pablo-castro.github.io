@@ -5,3 +5,4 @@
   <b>. Landing page Donuts:</b> https://pablo-castro.github.io/Landing_page_donuts/ <br>
   <b>. AWAX:</b> https://pablo-castro.github.io/AWAX/ <br>
   <b>. Starbucks:</b> https://pablo-castro.github.io/Starbucks/ <br>
+   <b>. Pizzaria:</b> https://pablo-castro.github.io/pizzaria/ <br>
